@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "soal1": "node soal1/index.js",
+    "soal2": "node soal2/index.js",
+    "soal3": "node soal3/index.js"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.3.0"
+  },
+  "name": "miftahudin_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}

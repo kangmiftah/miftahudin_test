@@ -1,0 +1,409 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="overflow-hidden">
+  <div id="__next">
+    <dialog style="z-index:99999" class="
+  overflow-hidden
+  fixed top-0 right-0 h-full w-full backdrop-blur-sm z-[80] bg-white/20
+  justify-center items-center h-modal 
+  duration-800 ease-in-out transform transition-all
+hidden 
+">
+      <div class=" text-center items-center justify-center duration-800 transform transition-all"><svg
+          style="height:40px;width:40px" class="inline justify-self-center mr-2  text-gray-200 animate-spin dark:text-gray-600 fill-primary 
+" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z"
+            fill="currentColor"></path>
+          <path
+            d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z"
+            fill="currentFill"></path>
+        </svg>
+        <h1 class="text-primary text-center mt-2 text-md font-semibold">Please Wait</h1>
+      </div>
+    </dialog>
+    <div class=" min-h-full w-height max-h-screen overflow-y-auto">
+      <div class=" h-full ">
+        <nav id="nav-header" class="px-2 bg-white border-gray-200 normal-nav transition-all ease-in delay-300">
+          <div class=" container flex flex-wrap items-center justify-between mx-auto"><a href="#"
+              class="flex items-center"><span class=" font-bold text-2xl">LOGO</span></a><button
+              data-collapse-toggle=" navbar-multi-level" type="button"
+              class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+              aria-controls="navbar-multi-level" aria-expanded="false"><span class="sr-only">Open main menu</span><svg
+                class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  clip-rule="evenodd"></path>
+              </svg></button>
+            <div
+              class=" hidden ease-in-out duration-500 transition-all transform group-first:block w-full md:block md:w-auto"
+              id="navbar-multi-level">
+              <ul
+                class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white">
+                <li><a href="#"
+                    class="block py-2 pl-3 pr-4 font-bold text-[12pt] text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
+                    aria-current="page">Home</a></li>
+                <li><a href="#"
+                    class="block py-2 pl-3 pr-4 font-bold text-[12pt] text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Shop</a>
+                </li>
+                <li><a href="#"
+                    class="block py-2 pl-3 pr-4 font-bold text-[12pt] text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Blog</a>
+                </li>
+                <li><button class=" block font-bold text-[12pt] bg-[#6C8380] text-white rounded-xl md:border-0 md:p-0"
+                    style="padding: 5px 25px;">Sign in</button></li>
+              </ul>
+            </div>
+          </div>
+
+        </nav>
+        <div class="container mx-auto py-4 min-h-screen ">
+
+          <div class=" grid grid-flow-row gap-1 auto-rows-max mt-4 ">
+            <div><span class=" font-bold text-lg">Category</span><span
+                class=" float-right text-gray-300 text-sm cursor-pointer">View all categories</span></div>
+            <div class="w-full overflow-hidden">
+              <div class="h-[150px] grid grid-rows-1 lg:grid-cols-4 grid-cols-2 2xl:grid-cols-5 gap-2 animate-pulse">
+                <div class="h-full bg-[#D9D9D9] rounded-lg">
+                  <div class="h-full bg-[#969696] rounded-lg"></div>
+                </div>
+                <div class="h-full bg-[#D9D9D9] rounded-lg">
+                  <div class="h-full bg-[#969696] rounded-lg"></div>
+                </div>
+                <div class="h-full bg-[#D9D9D9] rounded-lg">
+                  <div class="h-full bg-[#969696] rounded-lg"></div>
+                </div>
+                <div class="h-full bg-[#D9D9D9] rounded-lg">
+                  <div class="h-full bg-[#969696] rounded-lg"></div>
+                </div>
+                <div class="h-full bg-[#D9D9D9] rounded-lg">
+                  <div class="h-full bg-[#969696] rounded-lg"></div>
+                </div>
+                <div class="h-full bg-[#D9D9D9] rounded-lg">
+                  <div class="h-full bg-[#969696] rounded-lg"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" grid grid-flow-row gap-1 auto-rows-max mt-4 ">
+            <div><span class=" font-bold text-lg">Article</span><span
+                class=" float-right text-gray-300 text-sm cursor-pointer">Read more articles</span></div>
+            <div class="w-full overflow-hidden">
+              <div class="h-[250px] grid grid-rows-1 lg:grid-cols-2 2xl:grid-cols-2 sm:grid-cols-1 gap-2 animate-pulse">
+                <div class="h-full bg-[#D9D9D9] rounded-lg">
+                  <div class="h-full bg-[#969696] rounded-lg "></div>
+                </div>
+                <div class="h-full bg-[#D9D9D9] rounded-lg">
+                  <div class="h-full bg-[#969696] rounded-lg "></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" grid grid-flow-row gap-1 auto-rows-max mt-4 ">
+            <div><span class=" font-bold text-lg">Product</span><span
+                class=" float-right text-gray-300 text-sm cursor-pointer">View all products</span></div>
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-5 ">
+              <div>
+                <div class="relative h-[400px] rounded-2xl p-0 overflow-hidden shadow-md">
+                  <div
+                    class=" absolute bg-[#8DAAA6] top-[10px] right-[10px] z-10 text-white rounded-full text-sm px-3 py-1 ">
+                    10%</div>
+                  <div class="">
+                    <div
+                      class="flex group hover:bg-[rgba(175,175,175,0.7)] absolute h-[275px] w-full z-10 align-middle">
+                      <button
+                        class=" group-hover:block hidden bg-white rounded-sm px-5 mx-auto my-auto hover:bg-blue-500 hover:text-white">Detail</button>
+                    </div><img alt=""
+                      src="example1.jpg"
+                      width="300" height="300" decoding="async" data-nimg="1"
+                      class=" relative object-cover w-full h-[275px]" loading="lazy" style="color:transparent">
+                  </div>
+                  <div
+                    class=" absolute bg-white h-[175px] z-20 w-full bottom-[-50px] hover:bottom-0 hover:rounded-2xl transform duration-500 transition-all hover:bg-[rgba(255,255,255,0.8)] p-0 ">
+                    <div class="h-[125px] border-b-2 border-solid px-3 py-2 ">
+                      <h1 class=" text-sm">Snack QTela</h1>
+                      <h6 class="font-bold text-[9pt]">Rp.
+                        <!-- -->90,000
+                        <!-- -->,-
+                      </h6>
+                      <div class="text-[7pt]"><span class="px-1 bg-fuchsia-200 rounded-sm text-fuchsia-600">10%</span>
+                        <span class=" line-through">Rp.
+                          <!-- -->100,000
+                        </span>
+                      </div>
+                      <p class="p-1 text-xs line-clamp-3">Keripik Kentang terbaik dan murah, nikmat engga ada gantinya,
+                        silahkan untuk menikmati dengan baik</p>
+                    </div>
+                    <div class="h-[50px] grid grid-cols">
+                      <div class="text-center align-middle flex"><svg stroke="currentColor" fill="currentColor"
+                          stroke-width="0" t="1569683925316" viewBox="0 0 1024 1024" version="1.1"
+                          class="m-auto text-red hover:cursor-pointer" height="30" width="30"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <defs></defs>
+                          <path
+                            d="M713.5 599.9c-10.9-5.6-65.2-32.2-75.3-35.8-10.1-3.8-17.5-5.6-24.8 5.6-7.4 11.1-28.4 35.8-35 43.3-6.4 7.4-12.9 8.3-23.8 2.8-64.8-32.4-107.3-57.8-150-131.1-11.3-19.5 11.3-18.1 32.4-60.2 3.6-7.4 1.8-13.7-1-19.3-2.8-5.6-24.8-59.8-34-81.9-8.9-21.5-18.1-18.5-24.8-18.9-6.4-0.4-13.7-0.4-21.1-0.4-7.4 0-19.3 2.8-29.4 13.7-10.1 11.1-38.6 37.8-38.6 92s39.5 106.7 44.9 114.1c5.6 7.4 77.7 118.6 188.4 166.5 70 30.2 97.4 32.8 132.4 27.6 21.3-3.2 65.2-26.6 74.3-52.5 9.1-25.8 9.1-47.9 6.4-52.5-2.7-4.9-10.1-7.7-21-13z">
+                          </path>
+                          <path
+                            d="M925.2 338.4c-22.6-53.7-55-101.9-96.3-143.3-41.3-41.3-89.5-73.8-143.3-96.3C630.6 75.7 572.2 64 512 64h-2c-60.6 0.3-119.3 12.3-174.5 35.9-53.3 22.8-101.1 55.2-142 96.5-40.9 41.3-73 89.3-95.2 142.8-23 55.4-34.6 114.3-34.3 174.9 0.3 69.4 16.9 138.3 48 199.9v152c0 25.4 20.6 46 46 46h152.1c61.6 31.1 130.5 47.7 199.9 48h2.1c59.9 0 118-11.6 172.7-34.3 53.5-22.3 101.6-54.3 142.8-95.2 41.3-40.9 73.8-88.7 96.5-142 23.6-55.2 35.6-113.9 35.9-174.5 0.3-60.9-11.5-120-34.8-175.6z m-151.1 438C704 845.8 611 884 512 884h-1.7c-60.3-0.3-120.2-15.3-173.1-43.5l-8.4-4.5H188V695.2l-4.5-8.4C155.3 633.9 140.3 574 140 513.7c-0.4-99.7 37.7-193.3 107.6-263.8 69.8-70.5 163.1-109.5 262.8-109.9h1.7c50 0 98.5 9.7 144.2 28.9 44.6 18.7 84.6 45.6 119 80 34.3 34.3 61.3 74.4 80 119 19.4 46.2 29.1 95.2 28.9 145.8-0.6 99.6-39.7 192.9-110.1 262.7z">
+                          </path>
+                        </svg></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="relative h-[400px] rounded-2xl p-0 overflow-hidden shadow-md">
+                  <div
+                    class=" absolute bg-[#8DAAA6] top-[10px] right-[10px] z-10 text-white rounded-full text-sm px-3 py-1 ">
+                    10%</div>
+                  <div class="">
+                    <div
+                      class="flex group hover:bg-[rgba(175,175,175,0.7)] absolute h-[275px] w-full z-10 align-middle">
+                      <button
+                        class=" group-hover:block hidden bg-white rounded-sm px-5 mx-auto my-auto hover:bg-blue-500 hover:text-white">Detail</button>
+                    </div><img alt=""
+                      src="example1.jpg"
+                      width="300" height="300" decoding="async" data-nimg="1"
+                      class=" relative object-cover w-full h-[275px]" loading="lazy" style="color:transparent">
+                  </div>
+                  <div
+                    class=" absolute bg-white h-[175px] z-20 w-full bottom-[-50px] hover:bottom-0 hover:rounded-2xl transform duration-500 transition-all hover:bg-[rgba(255,255,255,0.8)] p-0 ">
+                    <div class="h-[125px] border-b-2 border-solid px-3 py-2 ">
+                      <h1 class=" text-sm">Snack QTela</h1>
+                      <h6 class="font-bold text-[9pt]">Rp.
+                        <!-- -->90,000
+                        <!-- -->,-
+                      </h6>
+                      <div class="text-[7pt]"><span class="px-1 bg-fuchsia-200 rounded-sm text-fuchsia-600">10%</span>
+                        <span class=" line-through">Rp.
+                          <!-- -->100,000
+                        </span>
+                      </div>
+                      <p class="p-1 text-xs line-clamp-3">Keripik Kentang terbaik dan murah, nikmat engga ada gantinya,
+                        silahkan untuk menikmati dengan baik</p>
+                    </div>
+                    <div class="h-[50px] grid grid-cols">
+                      <div class="text-center align-middle flex"><svg stroke="currentColor" fill="currentColor"
+                          stroke-width="0" t="1569683925316" viewBox="0 0 1024 1024" version="1.1"
+                          class="m-auto text-red hover:cursor-pointer" height="30" width="30"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <defs></defs>
+                          <path
+                            d="M713.5 599.9c-10.9-5.6-65.2-32.2-75.3-35.8-10.1-3.8-17.5-5.6-24.8 5.6-7.4 11.1-28.4 35.8-35 43.3-6.4 7.4-12.9 8.3-23.8 2.8-64.8-32.4-107.3-57.8-150-131.1-11.3-19.5 11.3-18.1 32.4-60.2 3.6-7.4 1.8-13.7-1-19.3-2.8-5.6-24.8-59.8-34-81.9-8.9-21.5-18.1-18.5-24.8-18.9-6.4-0.4-13.7-0.4-21.1-0.4-7.4 0-19.3 2.8-29.4 13.7-10.1 11.1-38.6 37.8-38.6 92s39.5 106.7 44.9 114.1c5.6 7.4 77.7 118.6 188.4 166.5 70 30.2 97.4 32.8 132.4 27.6 21.3-3.2 65.2-26.6 74.3-52.5 9.1-25.8 9.1-47.9 6.4-52.5-2.7-4.9-10.1-7.7-21-13z">
+                          </path>
+                          <path
+                            d="M925.2 338.4c-22.6-53.7-55-101.9-96.3-143.3-41.3-41.3-89.5-73.8-143.3-96.3C630.6 75.7 572.2 64 512 64h-2c-60.6 0.3-119.3 12.3-174.5 35.9-53.3 22.8-101.1 55.2-142 96.5-40.9 41.3-73 89.3-95.2 142.8-23 55.4-34.6 114.3-34.3 174.9 0.3 69.4 16.9 138.3 48 199.9v152c0 25.4 20.6 46 46 46h152.1c61.6 31.1 130.5 47.7 199.9 48h2.1c59.9 0 118-11.6 172.7-34.3 53.5-22.3 101.6-54.3 142.8-95.2 41.3-40.9 73.8-88.7 96.5-142 23.6-55.2 35.6-113.9 35.9-174.5 0.3-60.9-11.5-120-34.8-175.6z m-151.1 438C704 845.8 611 884 512 884h-1.7c-60.3-0.3-120.2-15.3-173.1-43.5l-8.4-4.5H188V695.2l-4.5-8.4C155.3 633.9 140.3 574 140 513.7c-0.4-99.7 37.7-193.3 107.6-263.8 69.8-70.5 163.1-109.5 262.8-109.9h1.7c50 0 98.5 9.7 144.2 28.9 44.6 18.7 84.6 45.6 119 80 34.3 34.3 61.3 74.4 80 119 19.4 46.2 29.1 95.2 28.9 145.8-0.6 99.6-39.7 192.9-110.1 262.7z">
+                          </path>
+                        </svg></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="relative h-[400px] rounded-2xl p-0 overflow-hidden shadow-md">
+                  <div
+                    class=" absolute bg-[#8DAAA6] top-[10px] right-[10px] z-10 text-white rounded-full text-sm px-3 py-1 ">
+                    10%</div>
+                  <div class="">
+                    <div
+                      class="flex group hover:bg-[rgba(175,175,175,0.7)] absolute h-[275px] w-full z-10 align-middle">
+                      <button
+                        class=" group-hover:block hidden bg-white rounded-sm px-5 mx-auto my-auto hover:bg-blue-500 hover:text-white">Detail</button>
+                    </div><img alt=""
+                      src="example1.jpg"
+                      width="300" height="300" decoding="async" data-nimg="1"
+                      class=" relative object-cover w-full h-[275px]" loading="lazy" style="color:transparent">
+                  </div>
+                  <div
+                    class=" absolute bg-white h-[175px] z-20 w-full bottom-[-50px] hover:bottom-0 hover:rounded-2xl transform duration-500 transition-all hover:bg-[rgba(255,255,255,0.8)] p-0 ">
+                    <div class="h-[125px] border-b-2 border-solid px-3 py-2 ">
+                      <h1 class=" text-sm">Snack QTela</h1>
+                      <h6 class="font-bold text-[9pt]">Rp.
+                        <!-- -->90,000
+                        <!-- -->,-
+                      </h6>
+                      <div class="text-[7pt]"><span class="px-1 bg-fuchsia-200 rounded-sm text-fuchsia-600">10%</span>
+                        <span class=" line-through">Rp.
+                          <!-- -->100,000
+                        </span>
+                      </div>
+                      <p class="p-1 text-xs line-clamp-3">Keripik Kentang terbaik dan murah, nikmat engga ada gantinya,
+                        silahkan untuk menikmati dengan baik</p>
+                    </div>
+                    <div class="h-[50px] grid grid-cols">
+                      <div class="text-center align-middle flex"><svg stroke="currentColor" fill="currentColor"
+                          stroke-width="0" t="1569683925316" viewBox="0 0 1024 1024" version="1.1"
+                          class="m-auto text-red hover:cursor-pointer" height="30" width="30"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <defs></defs>
+                          <path
+                            d="M713.5 599.9c-10.9-5.6-65.2-32.2-75.3-35.8-10.1-3.8-17.5-5.6-24.8 5.6-7.4 11.1-28.4 35.8-35 43.3-6.4 7.4-12.9 8.3-23.8 2.8-64.8-32.4-107.3-57.8-150-131.1-11.3-19.5 11.3-18.1 32.4-60.2 3.6-7.4 1.8-13.7-1-19.3-2.8-5.6-24.8-59.8-34-81.9-8.9-21.5-18.1-18.5-24.8-18.9-6.4-0.4-13.7-0.4-21.1-0.4-7.4 0-19.3 2.8-29.4 13.7-10.1 11.1-38.6 37.8-38.6 92s39.5 106.7 44.9 114.1c5.6 7.4 77.7 118.6 188.4 166.5 70 30.2 97.4 32.8 132.4 27.6 21.3-3.2 65.2-26.6 74.3-52.5 9.1-25.8 9.1-47.9 6.4-52.5-2.7-4.9-10.1-7.7-21-13z">
+                          </path>
+                          <path
+                            d="M925.2 338.4c-22.6-53.7-55-101.9-96.3-143.3-41.3-41.3-89.5-73.8-143.3-96.3C630.6 75.7 572.2 64 512 64h-2c-60.6 0.3-119.3 12.3-174.5 35.9-53.3 22.8-101.1 55.2-142 96.5-40.9 41.3-73 89.3-95.2 142.8-23 55.4-34.6 114.3-34.3 174.9 0.3 69.4 16.9 138.3 48 199.9v152c0 25.4 20.6 46 46 46h152.1c61.6 31.1 130.5 47.7 199.9 48h2.1c59.9 0 118-11.6 172.7-34.3 53.5-22.3 101.6-54.3 142.8-95.2 41.3-40.9 73.8-88.7 96.5-142 23.6-55.2 35.6-113.9 35.9-174.5 0.3-60.9-11.5-120-34.8-175.6z m-151.1 438C704 845.8 611 884 512 884h-1.7c-60.3-0.3-120.2-15.3-173.1-43.5l-8.4-4.5H188V695.2l-4.5-8.4C155.3 633.9 140.3 574 140 513.7c-0.4-99.7 37.7-193.3 107.6-263.8 69.8-70.5 163.1-109.5 262.8-109.9h1.7c50 0 98.5 9.7 144.2 28.9 44.6 18.7 84.6 45.6 119 80 34.3 34.3 61.3 74.4 80 119 19.4 46.2 29.1 95.2 28.9 145.8-0.6 99.6-39.7 192.9-110.1 262.7z">
+                          </path>
+                        </svg></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="relative h-[400px] rounded-2xl p-0 overflow-hidden shadow-md">
+                  <div
+                    class=" absolute bg-[#8DAAA6] top-[10px] right-[10px] z-10 text-white rounded-full text-sm px-3 py-1 ">
+                    10%</div>
+                  <div class="">
+                    <div
+                      class="flex group hover:bg-[rgba(175,175,175,0.7)] absolute h-[275px] w-full z-10 align-middle">
+                      <button
+                        class=" group-hover:block hidden bg-white rounded-sm px-5 mx-auto my-auto hover:bg-blue-500 hover:text-white">Detail</button>
+                    </div><img alt=""
+                      src="example1.jpg"
+                      width="300" height="300" decoding="async" data-nimg="1"
+                      class=" relative object-cover w-full h-[275px]" loading="lazy" style="color:transparent">
+                  </div>
+                  <div
+                    class=" absolute bg-white h-[175px] z-20 w-full bottom-[-50px] hover:bottom-0 hover:rounded-2xl transform duration-500 transition-all hover:bg-[rgba(255,255,255,0.8)] p-0 ">
+                    <div class="h-[125px] border-b-2 border-solid px-3 py-2 ">
+                      <h1 class=" text-sm">Snack QTela</h1>
+                      <h6 class="font-bold text-[9pt]">Rp.
+                        <!-- -->90,000
+                        <!-- -->,-
+                      </h6>
+                      <div class="text-[7pt]"><span class="px-1 bg-fuchsia-200 rounded-sm text-fuchsia-600">10%</span>
+                        <span class=" line-through">Rp.
+                          <!-- -->100,000
+                        </span>
+                      </div>
+                      <p class="p-1 text-xs line-clamp-3">Keripik Kentang terbaik dan murah, nikmat engga ada gantinya,
+                        silahkan untuk menikmati dengan baik</p>
+                    </div>
+                    <div class="h-[50px] grid grid-cols">
+                      <div class="text-center align-middle flex"><svg stroke="currentColor" fill="currentColor"
+                          stroke-width="0" t="1569683925316" viewBox="0 0 1024 1024" version="1.1"
+                          class="m-auto text-red hover:cursor-pointer" height="30" width="30"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <defs></defs>
+                          <path
+                            d="M713.5 599.9c-10.9-5.6-65.2-32.2-75.3-35.8-10.1-3.8-17.5-5.6-24.8 5.6-7.4 11.1-28.4 35.8-35 43.3-6.4 7.4-12.9 8.3-23.8 2.8-64.8-32.4-107.3-57.8-150-131.1-11.3-19.5 11.3-18.1 32.4-60.2 3.6-7.4 1.8-13.7-1-19.3-2.8-5.6-24.8-59.8-34-81.9-8.9-21.5-18.1-18.5-24.8-18.9-6.4-0.4-13.7-0.4-21.1-0.4-7.4 0-19.3 2.8-29.4 13.7-10.1 11.1-38.6 37.8-38.6 92s39.5 106.7 44.9 114.1c5.6 7.4 77.7 118.6 188.4 166.5 70 30.2 97.4 32.8 132.4 27.6 21.3-3.2 65.2-26.6 74.3-52.5 9.1-25.8 9.1-47.9 6.4-52.5-2.7-4.9-10.1-7.7-21-13z">
+                          </path>
+                          <path
+                            d="M925.2 338.4c-22.6-53.7-55-101.9-96.3-143.3-41.3-41.3-89.5-73.8-143.3-96.3C630.6 75.7 572.2 64 512 64h-2c-60.6 0.3-119.3 12.3-174.5 35.9-53.3 22.8-101.1 55.2-142 96.5-40.9 41.3-73 89.3-95.2 142.8-23 55.4-34.6 114.3-34.3 174.9 0.3 69.4 16.9 138.3 48 199.9v152c0 25.4 20.6 46 46 46h152.1c61.6 31.1 130.5 47.7 199.9 48h2.1c59.9 0 118-11.6 172.7-34.3 53.5-22.3 101.6-54.3 142.8-95.2 41.3-40.9 73.8-88.7 96.5-142 23.6-55.2 35.6-113.9 35.9-174.5 0.3-60.9-11.5-120-34.8-175.6z m-151.1 438C704 845.8 611 884 512 884h-1.7c-60.3-0.3-120.2-15.3-173.1-43.5l-8.4-4.5H188V695.2l-4.5-8.4C155.3 633.9 140.3 574 140 513.7c-0.4-99.7 37.7-193.3 107.6-263.8 69.8-70.5 163.1-109.5 262.8-109.9h1.7c50 0 98.5 9.7 144.2 28.9 44.6 18.7 84.6 45.6 119 80 34.3 34.3 61.3 74.4 80 119 19.4 46.2 29.1 95.2 28.9 145.8-0.6 99.6-39.7 192.9-110.1 262.7z">
+                          </path>
+                        </svg></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="relative h-[400px] rounded-2xl p-0 overflow-hidden shadow-md">
+                  <div
+                    class=" absolute bg-[#8DAAA6] top-[10px] right-[10px] z-10 text-white rounded-full text-sm px-3 py-1 ">
+                    10%</div>
+                  <div class="">
+                    <div
+                      class="flex group hover:bg-[rgba(175,175,175,0.7)] absolute h-[275px] w-full z-10 align-middle">
+                      <button
+                        class=" group-hover:block hidden bg-white rounded-sm px-5 mx-auto my-auto hover:bg-blue-500 hover:text-white">Detail</button>
+                    </div><img alt=""
+                      src="example1.jpg"
+                      width="300" height="300" decoding="async" data-nimg="1"
+                      class=" relative object-cover w-full h-[275px]" loading="lazy" style="color:transparent">
+                  </div>
+                  <div
+                    class=" absolute bg-white h-[175px] z-20 w-full bottom-[-50px] hover:bottom-0 hover:rounded-2xl transform duration-500 transition-all hover:bg-[rgba(255,255,255,0.8)] p-0 ">
+                    <div class="h-[125px] border-b-2 border-solid px-3 py-2 ">
+                      <h1 class=" text-sm">Snack QTela</h1>
+                      <h6 class="font-bold text-[9pt]">Rp.
+                        <!-- -->90,000
+                        <!-- -->,-
+                      </h6>
+                      <div class="text-[7pt]"><span class="px-1 bg-fuchsia-200 rounded-sm text-fuchsia-600">10%</span>
+                        <span class=" line-through">Rp.
+                          <!-- -->100,000
+                        </span>
+                      </div>
+                      <p class="p-1 text-xs line-clamp-3">Keripik Kentang terbaik dan murah, nikmat engga ada gantinya,
+                        silahkan untuk menikmati dengan baik</p>
+                    </div>
+                    <div class="h-[50px] grid grid-cols">
+                      <div class="text-center align-middle flex"><svg stroke="currentColor" fill="currentColor"
+                          stroke-width="0" t="1569683925316" viewBox="0 0 1024 1024" version="1.1"
+                          class="m-auto text-red hover:cursor-pointer" height="30" width="30"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <defs></defs>
+                          <path
+                            d="M713.5 599.9c-10.9-5.6-65.2-32.2-75.3-35.8-10.1-3.8-17.5-5.6-24.8 5.6-7.4 11.1-28.4 35.8-35 43.3-6.4 7.4-12.9 8.3-23.8 2.8-64.8-32.4-107.3-57.8-150-131.1-11.3-19.5 11.3-18.1 32.4-60.2 3.6-7.4 1.8-13.7-1-19.3-2.8-5.6-24.8-59.8-34-81.9-8.9-21.5-18.1-18.5-24.8-18.9-6.4-0.4-13.7-0.4-21.1-0.4-7.4 0-19.3 2.8-29.4 13.7-10.1 11.1-38.6 37.8-38.6 92s39.5 106.7 44.9 114.1c5.6 7.4 77.7 118.6 188.4 166.5 70 30.2 97.4 32.8 132.4 27.6 21.3-3.2 65.2-26.6 74.3-52.5 9.1-25.8 9.1-47.9 6.4-52.5-2.7-4.9-10.1-7.7-21-13z">
+                          </path>
+                          <path
+                            d="M925.2 338.4c-22.6-53.7-55-101.9-96.3-143.3-41.3-41.3-89.5-73.8-143.3-96.3C630.6 75.7 572.2 64 512 64h-2c-60.6 0.3-119.3 12.3-174.5 35.9-53.3 22.8-101.1 55.2-142 96.5-40.9 41.3-73 89.3-95.2 142.8-23 55.4-34.6 114.3-34.3 174.9 0.3 69.4 16.9 138.3 48 199.9v152c0 25.4 20.6 46 46 46h152.1c61.6 31.1 130.5 47.7 199.9 48h2.1c59.9 0 118-11.6 172.7-34.3 53.5-22.3 101.6-54.3 142.8-95.2 41.3-40.9 73.8-88.7 96.5-142 23.6-55.2 35.6-113.9 35.9-174.5 0.3-60.9-11.5-120-34.8-175.6z m-151.1 438C704 845.8 611 884 512 884h-1.7c-60.3-0.3-120.2-15.3-173.1-43.5l-8.4-4.5H188V695.2l-4.5-8.4C155.3 633.9 140.3 574 140 513.7c-0.4-99.7 37.7-193.3 107.6-263.8 69.8-70.5 163.1-109.5 262.8-109.9h1.7c50 0 98.5 9.7 144.2 28.9 44.6 18.7 84.6 45.6 119 80 34.3 34.3 61.3 74.4 80 119 19.4 46.2 29.1 95.2 28.9 145.8-0.6 99.6-39.7 192.9-110.1 262.7z">
+                          </path>
+                        </svg></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="relative h-[400px] rounded-2xl p-0 overflow-hidden shadow-md">
+                  <div
+                    class=" absolute bg-[#8DAAA6] top-[10px] right-[10px] z-10 text-white rounded-full text-sm px-3 py-1 ">
+                    10%</div>
+                  <div class="">
+                    <div
+                      class="flex group hover:bg-[rgba(175,175,175,0.7)] absolute h-[275px] w-full z-10 align-middle">
+                      <button
+                        class=" group-hover:block hidden bg-white rounded-sm px-5 mx-auto my-auto hover:bg-blue-500 hover:text-white">Detail</button>
+                    </div><img alt=""
+                      src="example1.jpg"
+                      width="300" height="300" decoding="async" data-nimg="1"
+                      class=" relative object-cover w-full h-[275px]" loading="lazy" style="color:transparent">
+                  </div>
+                  <div
+                    class=" absolute bg-white h-[175px] z-20 w-full bottom-[-50px] hover:bottom-0 hover:rounded-2xl transform duration-500 transition-all hover:bg-[rgba(255,255,255,0.8)] p-0 ">
+                    <div class="h-[125px] border-b-2 border-solid px-3 py-2 ">
+                      <h1 class=" text-sm">Snack QTela</h1>
+                      <h6 class="font-bold text-[9pt]">Rp.
+                        <!-- -->90,000
+                        <!-- -->,-
+                      </h6>
+                      <div class="text-[7pt]"><span class="px-1 bg-fuchsia-200 rounded-sm text-fuchsia-600">10%</span>
+                        <span class=" line-through">Rp.
+                          <!-- -->100,000
+                        </span>
+                      </div>
+                      <p class="p-1 text-xs line-clamp-3">Keripik Kentang terbaik dan murah, nikmat engga ada gantinya,
+                        silahkan untuk menikmati dengan baik</p>
+                    </div>
+                    <div class="h-[50px] grid grid-cols">
+                      <div class="text-center align-middle flex"><svg stroke="currentColor" fill="currentColor"
+                          stroke-width="0" t="1569683925316" viewBox="0 0 1024 1024" version="1.1"
+                          class="m-auto text-red hover:cursor-pointer" height="30" width="30"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <defs></defs>
+                          <path
+                            d="M713.5 599.9c-10.9-5.6-65.2-32.2-75.3-35.8-10.1-3.8-17.5-5.6-24.8 5.6-7.4 11.1-28.4 35.8-35 43.3-6.4 7.4-12.9 8.3-23.8 2.8-64.8-32.4-107.3-57.8-150-131.1-11.3-19.5 11.3-18.1 32.4-60.2 3.6-7.4 1.8-13.7-1-19.3-2.8-5.6-24.8-59.8-34-81.9-8.9-21.5-18.1-18.5-24.8-18.9-6.4-0.4-13.7-0.4-21.1-0.4-7.4 0-19.3 2.8-29.4 13.7-10.1 11.1-38.6 37.8-38.6 92s39.5 106.7 44.9 114.1c5.6 7.4 77.7 118.6 188.4 166.5 70 30.2 97.4 32.8 132.4 27.6 21.3-3.2 65.2-26.6 74.3-52.5 9.1-25.8 9.1-47.9 6.4-52.5-2.7-4.9-10.1-7.7-21-13z">
+                          </path>
+                          <path
+                            d="M925.2 338.4c-22.6-53.7-55-101.9-96.3-143.3-41.3-41.3-89.5-73.8-143.3-96.3C630.6 75.7 572.2 64 512 64h-2c-60.6 0.3-119.3 12.3-174.5 35.9-53.3 22.8-101.1 55.2-142 96.5-40.9 41.3-73 89.3-95.2 142.8-23 55.4-34.6 114.3-34.3 174.9 0.3 69.4 16.9 138.3 48 199.9v152c0 25.4 20.6 46 46 46h152.1c61.6 31.1 130.5 47.7 199.9 48h2.1c59.9 0 118-11.6 172.7-34.3 53.5-22.3 101.6-54.3 142.8-95.2 41.3-40.9 73.8-88.7 96.5-142 23.6-55.2 35.6-113.9 35.9-174.5 0.3-60.9-11.5-120-34.8-175.6z m-151.1 438C704 845.8 611 884 512 884h-1.7c-60.3-0.3-120.2-15.3-173.1-43.5l-8.4-4.5H188V695.2l-4.5-8.4C155.3 633.9 140.3 574 140 513.7c-0.4-99.7 37.7-193.3 107.6-263.8 69.8-70.5 163.1-109.5 262.8-109.9h1.7c50 0 98.5 9.7 144.2 28.9 44.6 18.7 84.6 45.6 119 80 34.3 34.3 61.3 74.4 80 119 19.4 46.2 29.1 95.2 28.9 145.8-0.6 99.6-39.7 192.9-110.1 262.7z">
+                          </path>
+                        </svg></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
